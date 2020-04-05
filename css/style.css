@@ -1,0 +1,196 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+/*info generali font eccetera*/
+ body
+ {
+  font-family: 'Raleway', sans-serif; 
+ }
+
+h1,h2,h3
+{
+  font-family: 'Sen', sans-serif;
+  font-weight: 800;
+}
+
+h4,h5,h6
+{
+  font-family: 'Amatic SC', cursive;
+}
+
+p
+{
+  font-family: 'Sen', sans-serif;
+}
+/*fine info generali*/
+
+
+
+nav ul a,
+nav .brand-logo {
+  color: #999;
+}
+.nav-wrapper
+{
+  padding: 0 50px;
+}
+
+.btn-large
+{
+  margin-bottom: 30px;
+  background-color: #FE6611;
+}
+
+.btn-large.hover
+{
+  margin-bottom: 30px;
+  background-color: rgba(254,102,17,0.6);
+}
+
+
+p {
+  line-height: 2rem;
+  color: #FE6611;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,1);
+  background-color: rgba(30,30,30,0.6);
+}
+
+.section-intro
+{
+  height: 100%;
+  width: 100%;
+}
+
+
+.header
+{
+  margin-top: 15%;
+}
+
+.header-subtitle
+{
+  margin-top: 10%;
+  font-size: 1.3em;
+}
+
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+  .nav-wrapper
+  {
+    padding: 0 10px;
+  }
+}
+
+.material-icons
+{
+  color: #FE6611;
+}
+
+.col-servizio
+{
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+#servizio h5
+{
+  font-size: 1.3em;
+  line-height: 1.6em;
+}
+
+.section-regis
+{
+  height: 100%;
+  width: 100%;
+}
+
+.btn-registrazione
+{
+  width: 100%;
+  background-color: #FE6611;
+}
+
+.registrazione-icon
+{
+  font-size: 7em;
+  margin-top: 60px;
+  color: #FE6611;
+}
+
+.registrazione-subtitle
+{
+  font-size: 1.3em;
+  margin-top: 5%;
+}
+
+.ospita-icon
+{
+  font-size: 3em;
+  margin-top: 60px;
+  color: #A78A7F;
+}
+
+.ospita-subtitle
+{
+  font-size: 1.3em;
+  margin-top: 5%;
+  color: #A78A7F;
+  line-height: 1.6em;
+}
+
+.btn-scarica
+{
+  width: 100%;
+  background-color: #FE6611;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+footer.page-footer {
+  margin: 0;
+  background-color: #000;
+}
+
+.social-icon
+{
+  font-size: 1.5em;
+  color: #fff;
+  padding: 0 20px;
+}
